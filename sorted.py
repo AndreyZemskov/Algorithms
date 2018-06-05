@@ -8,7 +8,7 @@ def insert_sort(A):
             k -= 1
 
 def choise_sort(A):
-    """ choise_sort """
+    """ choice_sort """
     N = len(A)
     for pos in range(0, N - 1):
         for k in range(pos + 1, N):
@@ -46,5 +46,5 @@ def test_sort(sort_algoritm):
 
 if __name__ == '__main__':
     test_sort(insert_sort)
-    test_sort(choise_sort)
+    test_sort(choice_sort)
     test_sort(bubble_sort)
