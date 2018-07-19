@@ -1,3 +1,11 @@
+"""
+Which cells should the horse go through, to get from d4 to f2 most quickly?
+
+1) We reduce the problem to the graph
+2) We go around the width from one point to another
+
+"""
+
 letter = 'abcdefgh'
 numbers = '12345678'
 
